@@ -2,6 +2,8 @@
 
 **Asystent AI, który w 10 sekund projektuje architekturę Azure + rysuje diagram + tłumaczy dlaczego.**
 
+![aplikacja](image.png)
+
 ## 1. Opis problemu i użytkownika
 Juniorzy, studenci i małe firmy tracą godziny na research "jak zrobić to dobrze w Azure".  
 AzureArchAI rozwiązuje to: podajesz opis aplikacji → dostajesz gotową architekturę, Mermaid diagram i uzasadnienie (koszty, skalowalność, best practices).
