@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "gradio>=6.9.0",
+    "ollama>=0.6.1",
     "python-dotenv>=1.2.2",
 ]
 

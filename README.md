@@ -49,16 +49,7 @@ AzureArchAI rozwiązuje to: podajesz opis aplikacji → dostajesz gotową archit
 # 1. Klonuj
 git clone https://github.com/twoje/azurearchai.git && cd azurearchai
 
-# 2. Środowisko
-python -m venv venv
-source venv/bin/activate    # Windows: venv\Scripts\activate
-
-# 3. Instalacja
-pip install -e .
-
-# 4. API key
-cp .env.example .env
-# wklej OPENAI_API_KEY=...
-
-# 5. Uruchom
-python -m src.main
+# 2. docker
+ docker compose up -d ollama
+ docker compose exec ollama ollama pull phi4-mini
+ docker compose up -d --build
